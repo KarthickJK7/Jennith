@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <parameter name="Username" value="KartMith"/>
+  <parameter name="Password" value="123456@"/>
+  <test name="Test(failed)" parallel="none" preserve-order="true">
+    <parameter name="Username" value="KartMith"/>
+    <parameter name="Password" value="123456@"/>
+    <classes>
+      <class name="org.adactin.Adactin">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="bookHotel"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- org.adactin.Adactin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
